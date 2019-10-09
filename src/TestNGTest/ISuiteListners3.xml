@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "ITest Listner">
+<listeners>
+<listener class-name="ITestResultListners.customListeners"></listener>
+</listeners>
+<test name = "Application Listner Test 1">
+<classes>
+<class name = "TestNGTest.TestNg_ITestResultListners1"/>
+</classes>
+</test>
+<test name = "Application Listner Test 2">
+<classes>
+<class name = "TestNGTest.TestNg_ITestResultListners2"/>
+</classes>
+</test>
+</suite>

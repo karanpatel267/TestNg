@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Invoke Listner]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Custom Listner(failed)">
+    <classes>
+      <class name="TestNGTest.TestNg_ITestResultListners1">
+        <methods>
+          <include name="testMethod1"/>
+          <include name="beforeSetUp"/>
+          <include name="AfterSetUp"/>
+        </methods>
+      </class> <!-- TestNGTest.TestNg_ITestResultListners1 -->
+    </classes>
+  </test> <!-- Custom Listner(failed) -->
+</suite> <!-- Failed suite [Invoke Listner] -->

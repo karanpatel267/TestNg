@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Hello suite">
+<test name="Test 1">
+<parameter name="Browser" value="firefox"></parameter>
+<parameter name="Platform" value="Windows"></parameter>
+<parameter name="Numbers" value="200,201,202"></parameter>
+<classes>
+<class name = "PractiseForTestNg.TestForParameter"/>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PractiseTest" parallel="classes">
+	<test name=" Practise Test">
+		<classes>
+			<class name="PractiseForTestNg.PractiseTest" />
+		</classes>
+	</test>
+	<test name=" Practise Test1">
+		<classes>
+			<class name="PractiseForTestNg.PractiseTest1" />
+		</classes>
+	</test>
+</suite>

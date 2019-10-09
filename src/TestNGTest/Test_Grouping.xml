@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CAR TestSuite">
+	<test name="Grouping Test">
+		<groups>
+			<run>
+				<include name="Sedan"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGTest.TestNg_Grouping"></class>
+		</classes>
+
+	</test>
+</suite>
